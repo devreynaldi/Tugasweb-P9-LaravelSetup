@@ -8,15 +8,15 @@ class PageController extends Controller
 {
     public function about()
     {
-        $tim = ['Andi', 'Budi', 'Citra'];
+        $tim = ['Dev Reynaldi Simanjuntak'];
         return view('about', compact('tim'));
     }
 
     public function contact()
     {
         $kontak = [
-            'email'   => 'kampus@example.com',
-            'telepon' => '0812-3456-7890',
+            'email'   => 'emailkamu@gmail.com',
+            'telepon' => '08xx-xxxx-xxxx',
             'alamat'  => 'Pekanbaru, Riau',
         ];
         $jumlah = Mahasiswa::count();

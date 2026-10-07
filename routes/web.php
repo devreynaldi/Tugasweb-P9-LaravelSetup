@@ -7,9 +7,7 @@ Route::get('/', function () {
     $data = [
         'judul' => 'Selamat Datang di Laravel',
         'mahasiswa' => [
-            ['nama' => 'Andi',  'nim' => '2601001', 'jurusan' => 'Sistem Informasi'],
-            ['nama' => 'Budi',  'nim' => '2601002', 'jurusan' => 'Teknik Informatika'],
-            ['nama' => 'Citra', 'nim' => '2601003', 'jurusan' => 'Manajemen Informatika'],
+            ['nama' => 'Dev Reynaldi Simanjuntak', 'nim' => '4253550008', 'jurusan' => 'Ilmu Komputer'],
         ],
     ];
     return view('welcome', $data);
